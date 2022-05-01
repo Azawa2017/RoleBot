@@ -1,0 +1,38 @@
+{
+    "name": "RoleBot",
+    "version": "1.0.0",
+    "description": "Role managing bot",
+    "main": "index.ts",
+    "scripts": {
+        "start": "ts-node index.ts",
+        "lint": "eslint *.ts",
+        "lint-fix": "eslint --fix *.ts",
+        "write": "prettier --write .",
+        "check": "prettier --check .",
+        "tsc": "tsc"
+    },
+    "dependencies": {
+        "discord.js": "^13.6.0",
+        "ts-node": "^10.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.23",
+        "@typescript-eslint/eslint-plugin": "^5.19.0",
+        "@typescript-eslint/parser": "^5.19.0",
+        "eslint": "^8.13.0",
+        "prettier": "^2.6.2",
+        "typescript": "^4.6.3"
+    },
+    "engines": {
+        "node": "16.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Azawa2017/RoleBot.git"
+    },
+    "author": "Azawa2017",
+    "bugs": {
+        "url": "https://github.com/Azawa2017/RoleBot/issues"
+    },
+    "license": "MIT"
+}
