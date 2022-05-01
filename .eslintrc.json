@@ -1,0 +1,30 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2022": true
+    },
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-unused-vars": "error",
+        "semi": ["error", "always"],
+        "comma-spacing": "error",
+        "no-extra-semi": "error",
+        "quotes": ["error", "double"],
+        "no-var": "error"
+    },
+    "overrides": [
+        {
+            "parser": "@typescript-eslint/parser",
+            "plugins": ["@typescript-eslint"],
+            "extends": ["plugin:@typescript-eslint/recommended"],
+            "rules": {
+                "@typescript-eslint/no-inferrable-types": "off"
+            },
+            "files": ["*.ts"]
+        }
+    ]
+}
