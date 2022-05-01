@@ -1,0 +1,31 @@
+{
+    "roles": {
+        "data": {
+            "name": "roles",
+            "description": "GuildMemberRolesManager",
+            "options": [
+                {
+                    "type": "SUB_COMMAND",
+                    "name": "add",
+                    "description": "ロールをユーザーに追加します。",
+                    "options": [
+                        {
+                            "name": "role",
+                            "description": "ロールを指定します。",
+                            "required": true,
+                            "type": "ROLE"
+                        },
+                        {
+                            "name": "user",
+                            "description": "ユーザーを指定します。",
+                            "required": true,
+                            "type": "USER"
+                        }
+                    ]
+                }
+            ]
+        },
+        "id": "0000000000000000"
+    }
+}
+        
