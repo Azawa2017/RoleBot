@@ -1,3 +1,5 @@
+# Complied files
+dist/*
 # Logs
 logs
 *.log
